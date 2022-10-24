@@ -6,5 +6,5 @@ let logoutEl = document.getElementById('logOut')
 
 logoutEl.addEventListener('click', ()=>{
     window.localStorage.clear()
-    window.location.replace('/login.html')
+    window.location.replace('/index.html')
 })
